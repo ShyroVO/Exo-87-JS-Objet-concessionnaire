@@ -10,7 +10,6 @@ let voiture = {
     vitesseMaxi : "120km/h"
 };
 
-let voitureImg = "url(" + voiture.imgUrl +")";
 
 document.getElementById('carsName').innerHTML = voiture.Nom;
 

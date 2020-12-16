@@ -17,9 +17,23 @@ header {
     box-shadow: limegreen 0 0 1rem;
 }
 
-
 #contenuePage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     height: auto;
-    width: 30rem;
-    background: lightblue;
+    width: 100%;
+    margin: 1rem;
+}
+
+#carsPhoto {
+    height: 20rem;
+    width: 50%;
+    background-image: url("https://images.caradisiac.com/logos/9/9/8/2/159982/S7-Citroen-Eggo-concept-de-citadine-du-futur-73689.jpg");
+    background-size: 100% 100%;
+    border-radius: 20rem;
+}
+
+#carsInfo {
+    padding: 2rem;
 }
