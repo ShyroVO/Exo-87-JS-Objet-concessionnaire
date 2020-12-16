@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: white;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: limegreen 0 0 1rem;
+}
+
+
+#contenuePage {
+    height: auto;
+    width: 30rem;
+    background: lightblue;
+}

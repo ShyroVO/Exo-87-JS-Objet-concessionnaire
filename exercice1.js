@@ -10,6 +10,15 @@ let voiture = {
     vitesseMaxi : "120km/h"
 };
 
+let voitureImg = "url(" + voiture.imgUrl +")";
 
+document.getElementById('carsName').innerHTML = voiture.Nom;
 
-
+document.getElementById('carsInformation').innerHTML =
+    voiture.nombresRoues + " roues. Encore heureux!" + "<br>" + "<br>" +
+    voiture.nombrePortes + " portes" + "<br>" +
+    "Couleur disponible: " + voiture.Couleur + "<br>" +
+    "Constructeur: " + voiture.Contructeur + "<br>" +
+    "Carburant: " + voiture.Carburant + "<br>" +
+    "Autonomie: " + voiture.Autonomie + "<br>" +
+    "Vitesse Max: " + voiture.vitesseMaxi + "<br>";
